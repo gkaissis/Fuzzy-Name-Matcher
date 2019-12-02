@@ -1,11 +1,12 @@
 from distutils.core import setup
+from setuptools import find_packages
 
 setup(
     name="Fuzzy Name Matcher",
     version="0.1.0",
     author="Georgios Kaissis, Friederike Jungmann",
     author_email="",
-    packages="",
+    packages=find_packages(include=["fuzzy.*"]),
     scripts="fuzzy.py",
     url="",
     license="LICENSE.MD",
