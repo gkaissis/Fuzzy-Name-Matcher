@@ -36,7 +36,7 @@ def main():
     )
     print("Writing Excel file...")
     output_excel(output_df)
-    print("Done!")
+    print(f"Done! Results file can be found at {os.getcwd()}")
     sys.exit(0)
 
 
