@@ -10,7 +10,12 @@ setup(
     license="LICENSE.MD",
     description="Fuzzy Name Matcher.",
     long_description=open("README.MD").read(),
-    scripts="fuzzy.py",
-    install_requires=["fuzzywuzzy==0.17.0", "pandas==0.25.1", "python-Levenshtein==0.12.0", "tqdm==4.39.0"],
+    entry_points={"console_scripts": ["fuzzy_name_matcher.main.main"]},
+    install_requires=[
+        "fuzzywuzzy==0.17.0",
+        "pandas==0.25.1",
+        "python-Levenshtein==0.12.0",
+        "tqdm==4.39.0",
+    ],
     python_requires=">=3.7",
 )
