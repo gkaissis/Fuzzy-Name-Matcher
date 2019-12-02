@@ -10,7 +10,7 @@ setup(
     license="LICENSE.MD",
     description="Fuzzy Name Matcher.",
     long_description=open("README.MD").read(),
-    entry_points={"console_scripts": ["fuzzy_name_matcher.main.main"]},
+    entry_points={"console_scripts": ["fuzzy= fuzzy_name_matcher.main:main"]},
     install_requires=[
         "fuzzywuzzy==0.17.0",
         "pandas==0.25.1",
