@@ -12,5 +12,5 @@ setup(
     description="Fuzzy Name Matcher.",
     long_description=open("README.MD").read(),
     install_requires=open("requirements.txt").read(),
-    python_requires="=3.7",
+    python_requires=">=3.7",
 )
