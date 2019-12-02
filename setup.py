@@ -11,6 +11,6 @@ setup(
     license="LICENSE.MD",
     description="Fuzzy Name Matcher.",
     long_description=open("README.MD").read(),
-    install_requires=open(requirements.txt).read(),
+    install_requires=open("requirements.txt").read(),
     python_requires="3.7",
 )
