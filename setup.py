@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Fuzzy Name Matcher",
+    name="fuzzy_name_matcher",
     version="0.1.0",
     author="Georgios Kaissis, Friederike Jungmann",
     author_email="",
