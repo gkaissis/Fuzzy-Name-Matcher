@@ -10,7 +10,7 @@ This module searches an Excel file for a column named "Full Name", then searches
 
 1. Create a new virtual environment
 2. Run `pip install git+https://github.com/gkaissis/Fuzzy-Name-Matcher`
-3. Run `python fuzzy.py` 
+3. Run `fuzzy`
 
 ## Usage
 
